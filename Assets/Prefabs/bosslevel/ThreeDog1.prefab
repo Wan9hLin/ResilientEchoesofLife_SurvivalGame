@@ -1,0 +1,2031 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3972499496737025049
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797177}
+  m_Layer: 0
+  m_Name: CERBERUS_R_NECK_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797177
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025049}
+  m_LocalRotation: {x: 0.0010443036, y: 0.01273717, z: -0.044998415, w: 0.99890536}
+  m_LocalPosition: {x: -0.6703306, y: -0.00000045776366, z: 0}
+  m_LocalScale: {x: 1.0000004, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797123}
+  m_Father: {fileID: 3972499496736797127}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.3496723, y: 14.356968, z: -10.897398}
+--- !u!1 &3972499496737025051
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797179}
+  - component: {fileID: 3972499496746409593}
+  - component: {fileID: 3972499496746409599}
+  - component: {fileID: 920754027280759510}
+  - component: {fileID: 4711821555186683718}
+  - component: {fileID: 3807214841843717238}
+  m_Layer: 0
+  m_Name: ThreeDog1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &3972499496736797179
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025051}
+  m_LocalRotation: {x: 0, y: 0.30569524, z: 0, w: 0.9521295}
+  m_LocalPosition: {x: 548.35, y: 56.6, z: -198.64998}
+  m_LocalScale: {x: 0.25754, y: 0.25754, z: 0.25754}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797181}
+  - {fileID: 3972499496736797183}
+  - {fileID: 6261232076850675879}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 35.6, z: 0}
+--- !u!95 &3972499496746409593
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025051}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: da5837cdd9a809246bc2b57ab5fb6d02, type: 3}
+  m_Controller: {fileID: 9100000, guid: 495647bada617e547b43f3e6f755faa7, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!195 &3972499496746409599
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025051}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &920754027280759510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d7b55c7ecdb49a4a89fa5e6f9022861, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startWhenEnabled: 1
+  asynchronousLoad: 0
+  pauseWhenDisabled: 0
+  restartWhenComplete: 0
+  logTaskChanges: 0
+  group: 0
+  resetValuesOnRestart: 0
+  externalBehavior: {fileID: 11400000, guid: a8882a46d85a0a2458dc3ae85b2a30c2, type: 2}
+  mBehaviorSource:
+    behaviorName: Behavior
+    behaviorDescription: 
+    mTaskData:
+      types: []
+      parentIndex: 
+      startIndex: 
+      variableStartIndex: 
+      JSONSerialization: '{"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":"Player","IsShared":true,"GameObjectmValue":0},{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":"Self","IsShared":true,"GameObjectmValue":1},{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":"Point","IsShared":true,"GameObjectmValue":2}]}'
+      fieldSerializationData:
+        typeName: []
+        fieldNameHash: 
+        startIndex: 
+        dataPosition: 
+        unityObjects:
+        - {fileID: 0}
+        - {fileID: 3972499496737025051}
+        - {fileID: 9092287814824990939, guid: d224b300245d50c4e9436d138aab9544, type: 3}
+        byteData: 
+        byteDataArray: 
+      Version: 1.7.4
+  gizmoViewMode: 2
+  showBehaviorDesignerGizmo: 1
+--- !u!114 &4711821555186683718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08bd8e76afa235c41aa370e019b58e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 50
+  currentHealth: 1
+  isDead: 0
+  bloodFXPrefab: {fileID: 7195234796280975208, guid: cd1a23bb7eb680b4294cd5a42961e9f3,
+    type: 3}
+  meatCount: 3
+  meatSpawnRadius: 1
+--- !u!82 &3807214841843717238
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025051}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 71487cdebcfa2784ca63fcd145538083, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &3972499496737025053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797181}
+  - component: {fileID: 920754027398625328}
+  - component: {fileID: 920754027398625334}
+  m_Layer: 0
+  m_Name: root
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797181
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025053}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797083}
+  m_Father: {fileID: 3972499496736797179}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!54 &920754027398625328
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025053}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &920754027398625334
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025053}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.9068804, y: 6.6077814, z: 4.497139}
+  m_Center: {x: -0.035026815, y: -1.1724042, z: 2.2959037}
+--- !u!1 &3972499496737025055
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797183}
+  - component: {fileID: 3972499496742232251}
+  m_Layer: 0
+  m_Name: SK_Cerberus
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797183
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025055}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3972499496736797179}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &3972499496742232251
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025055}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: f408f57da5210af41850be4a7672572d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 4
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300002, guid: da5837cdd9a809246bc2b57ab5fb6d02, type: 3}
+  m_Bones:
+  - {fileID: 3972499496736797085}
+  - {fileID: 3972499496736797087}
+  - {fileID: 3972499496736797073}
+  - {fileID: 3972499496736797075}
+  - {fileID: 3972499496736797077}
+  - {fileID: 3972499496736797079}
+  - {fileID: 3972499496736797065}
+  - {fileID: 3972499496736797067}
+  - {fileID: 3972499496736797069}
+  - {fileID: 3972499496736797071}
+  - {fileID: 3972499496736797057}
+  - {fileID: 3972499496736797059}
+  - {fileID: 3972499496736797061}
+  - {fileID: 3972499496736797063}
+  - {fileID: 3972499496736797113}
+  - {fileID: 3972499496736797115}
+  - {fileID: 3972499496736797117}
+  - {fileID: 3972499496736797119}
+  - {fileID: 3972499496736797105}
+  - {fileID: 3972499496736797107}
+  - {fileID: 3972499496736797125}
+  - {fileID: 3972499496736797131}
+  - {fileID: 3972499496736797145}
+  - {fileID: 3972499496736797095}
+  - {fileID: 3972499496736797123}
+  - {fileID: 3972499496736797135}
+  - {fileID: 3972499496736797121}
+  - {fileID: 3972499496736797127}
+  - {fileID: 3972499496736797133}
+  - {fileID: 3972499496736797093}
+  - {fileID: 3972499496736797089}
+  - {fileID: 3972499496736797177}
+  - {fileID: 3972499496736797109}
+  - {fileID: 3972499496736797091}
+  - {fileID: 3972499496736797151}
+  - {fileID: 3972499496736797149}
+  - {fileID: 3972499496736797147}
+  - {fileID: 3972499496736797137}
+  - {fileID: 3972499496736797139}
+  - {fileID: 3972499496736797141}
+  - {fileID: 3972499496736797143}
+  - {fileID: 3972499496736797129}
+  - {fileID: 3972499496736797097}
+  - {fileID: 3972499496736797101}
+  - {fileID: 3972499496736797111}
+  - {fileID: 3972499496736797099}
+  - {fileID: 3972499496736797103}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 3972499496736797113}
+  m_AABB:
+    m_Center: {x: -1.5681735, y: 1.1596501, z: -0.000017166138}
+    m_Extent: {x: 4.5207567, y: 3.2621057, z: 3.2696621}
+  m_DirtyAABB: 0
+--- !u!1 &3972499496737025441
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797057}
+  m_Layer: 0
+  m_Name: CERBERUS_ L Toe0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797057
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025441}
+  m_LocalRotation: {x: 0.00000028456327, y: 0.00000010017079, z: -0.7071068, w: 0.7071067}
+  m_LocalPosition: {x: -0.3572185, y: 0.32859588, z: 0.00000015258789}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3972499496736797079}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00020366395, y: 0.000010219482, z: -42.24071}
+--- !u!1 &3972499496737025443
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797059}
+  m_Layer: 0
+  m_Name: CERBERUS_ L UpperArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797059
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025443}
+  m_LocalRotation: {x: -0.72483695, y: -0.3698759, z: -0.15883906, w: 0.5590826}
+  m_LocalPosition: {x: -0.99542445, y: -0.00000030517577, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797065}
+  m_Father: {fileID: 3972499496736797073}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -86.47019, y: 161.05457, z: 163.37192}
+--- !u!1 &3972499496737025445
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797061}
+  m_Layer: 0
+  m_Name: CERBERUS_ Neck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797061
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025445}
+  m_LocalRotation: {x: -0.000000006546244, y: 0.000000059264654, z: -0.03138707, w: 0.9995073}
+  m_LocalPosition: {x: -1.0494794, y: -0.1481894, z: -0.00000011968456}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797073}
+  - {fileID: 3972499496736797063}
+  - {fileID: 3972499496736797119}
+  m_Father: {fileID: 3972499496736797145}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.00000012462031, y: 0.0000062921254, z: -2.2691686}
+--- !u!1 &3972499496737025447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797063}
+  m_Layer: 0
+  m_Name: CERBERUS_ Neck1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797063
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025447}
+  m_LocalRotation: {x: -0.000000015543096, y: 0.00000005863387, z: -0.03138708, w: 0.9995073}
+  m_LocalPosition: {x: -0.4674022, y: -0.0003097534, z: -8.4954077e-10}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797085}
+  m_Father: {fileID: 3972499496736797061}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0.000000007246019, y: -0.0000015153643, z: 0.5463584}
+--- !u!1 &3972499496737025449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797065}
+  m_Layer: 0
+  m_Name: CERBERUS_ L Forearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797065
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025449}
+  m_LocalRotation: {x: 0.000000012469618, y: -0.000000007492985, z: 0.328748, w: 0.9444177}
+  m_LocalPosition: {x: -1.4755257, y: 0.000000038146972, z: -0.000000076293944}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797067}
+  m_Father: {fileID: 3972499496736797059}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000019900506, y: -0.00000038899407, z: 101.06011}
+--- !u!1 &3972499496737025451
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797067}
+  m_Layer: 0
+  m_Name: CERBERUS_ L Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797067
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025451}
+  m_LocalRotation: {x: -0.70595336, y: -0.035095967, z: 0.03512392, w: 0.7065157}
+  m_LocalPosition: {x: -1.0036335, y: 0.00000015258789, z: 0.000000076293944}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797075}
+  m_Father: {fileID: 3972499496736797065}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -64.22655, y: 116.580315, z: -119.53087}
+--- !u!1 &3972499496737025453
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797069}
+  m_Layer: 0
+  m_Name: CERBERUS_ L HorseLink
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797069
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025453}
+  m_LocalRotation: {x: 0.000000014014776, y: 0.000000017806297, z: -0.48087934, w: 0.8767868}
+  m_LocalPosition: {x: -0.98606217, y: 0, z: -0.00000015258789}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797079}
+  m_Father: {fileID: 3972499496736797087}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.00000076074997, y: -0.0000029828416, z: -132.00212}
+--- !u!1 &3972499496737025455
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797071}
+  m_Layer: 0
+  m_Name: CERBERUS_ L Thigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797071
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025455}
+  m_LocalRotation: {x: -0.6676622, y: 0.7296888, z: 0.14699973, w: -0.013133519}
+  m_LocalPosition: {x: 0.0000007629394, y: 0.0000009155273, z: 0.584784}
+  m_LocalScale: {x: 1, y: 1.0000002, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797087}
+  m_Father: {fileID: 3972499496736797113}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -11.566207, y: -178.83983, z: -99.678734}
+--- !u!1 &3972499496737025457
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797073}
+  m_Layer: 0
+  m_Name: CERBERUS_ L Clavicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797073
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025457}
+  m_LocalRotation: {x: 0.6898001, y: -0.2981949, z: -0.44590124, w: 0.48623836}
+  m_LocalPosition: {x: 1.0757169, y: -0.58486634, z: 0.85222656}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797059}
+  m_Father: {fileID: 3972499496736797061}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 40.09102, y: -98.973305, z: -104.452034}
+--- !u!1 &3972499496737025459
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797075}
+  m_Layer: 0
+  m_Name: CERBERUS_ L Finger0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797075
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025459}
+  m_LocalRotation: {x: 0.7004864, y: -0.23948525, z: 0.15685695, w: 0.6537289}
+  m_LocalPosition: {x: -0.3521763, y: 0.000000076293944, z: 0}
+  m_LocalScale: {x: 1, y: 1.0000006, z: 1.0000004}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797077}
+  m_Father: {fileID: 3972499496736797067}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 83.72482, y: 6.57615, z: 2.2790864}
+--- !u!1 &3972499496737025461
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797077}
+  m_Layer: 0
+  m_Name: CERBERUS_ L Finger01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797077
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025461}
+  m_LocalRotation: {x: -0.0000000024062226, y: -0.000000016961698, z: 0.295137, w: 0.95545495}
+  m_LocalPosition: {x: -0.42732245, y: 0, z: 0.000000076293944}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3972499496736797075}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00000038556797, y: -0.00000028129668, z: 9.54811}
+--- !u!1 &3972499496737025463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797079}
+  m_Layer: 0
+  m_Name: CERBERUS_ L Foot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797079
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025463}
+  m_LocalRotation: {x: -0.011033732, y: 0.10307184, z: 0.22709167, w: 0.96834075}
+  m_LocalPosition: {x: -0.5016551, y: 0, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797057}
+  m_Father: {fileID: 3972499496736797069}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -5.0675273, y: 6.5252714, z: 84.09686}
+--- !u!1 &3972499496737025467
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797083}
+  m_Layer: 0
+  m_Name: CERBERUS_
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797083
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025467}
+  m_LocalRotation: {x: 0.48379058, y: -0.48379233, z: 0.5156984, w: 0.51570034}
+  m_LocalPosition: {x: -0, y: 1.501, z: 2.929}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797113}
+  m_Father: {fileID: 3972499496736797181}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 82.0174, y: -0.0006270869, z: 89.99938}
+--- !u!1 &3972499496737025469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797085}
+  m_Layer: 0
+  m_Name: CERBERUS_ Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797085
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025469}
+  m_LocalRotation: {x: 0.000000022120416, y: -0.00000011923372, z: 0.063141264, w: 0.9980046}
+  m_LocalPosition: {x: -0.23504837, y: -0.12814392, z: -0.00000010728836}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797115}
+  m_Father: {fileID: 3972499496736797063}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000038642397, y: -0.000034831788, z: 12.661196}
+--- !u!1 &3972499496737025471
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797087}
+  m_Layer: 0
+  m_Name: CERBERUS_ L Calf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025471}
+  m_LocalRotation: {x: -0.0000000036002914, y: -9.569171e-10, z: 0.25687048, w: 0.96644586}
+  m_LocalPosition: {x: -1.3180703, y: -0.00000015258789, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797069}
+  m_Father: {fileID: 3972499496736797071}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000003746271, y: -0.00000014078265, z: 110.59591}
+--- !u!1 &3972499496737025473
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797089}
+  m_Layer: 0
+  m_Name: CERBERUS_ R UpperArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797089
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025473}
+  m_LocalRotation: {x: 0.7248369, y: 0.36987594, z: -0.15883912, w: 0.5590826}
+  m_LocalPosition: {x: -0.99542433, y: -0.00000015258789, z: 0.00000015258789}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797111}
+  m_Father: {fileID: 3972499496736797119}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 75.99014, y: 124.92634, z: 63.37562}
+--- !u!1 &3972499496737025475
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797091}
+  m_Layer: 0
+  m_Name: CERBERUS_ Spine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797091
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025475}
+  m_LocalRotation: {x: -0.000002080476, y: 0.0000006936761, z: -0.00039816275, w: 0.99999994}
+  m_LocalPosition: {x: -0.4749395, y: -0.022449035, z: 0.00000068977823}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797093}
+  m_Father: {fileID: 3972499496736797113}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -0.00019382792, y: 0.00018979206, z: -43.971043}
+--- !u!1 &3972499496737025477
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797093}
+  m_Layer: 0
+  m_Name: CERBERUS_ Spine1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797093
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025477}
+  m_LocalRotation: {x: 1.1368684e-13, y: 6.394884e-14, z: -7.270142e-27, w: 1}
+  m_LocalPosition: {x: -0.64217526, y: -0.0004449463, z: -0.0000000012342934}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797095}
+  m_Father: {fileID: 3972499496736797091}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000011333447, y: 0.000018945004, z: -6.8467607}
+--- !u!1 &3972499496737025479
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797095}
+  m_Layer: 0
+  m_Name: CERBERUS_ Spine2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797095
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025479}
+  m_LocalRotation: {x: 1.1368684e-13, y: 6.394884e-14, z: -7.270142e-27, w: 1}
+  m_LocalPosition: {x: -0.55893713, y: -0.0004977417, z: -0.0000000013795215}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797145}
+  m_Father: {fileID: 3972499496736797093}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.000005276, y: -0.00004060845, z: 14.805265}
+--- !u!1 &3972499496737025481
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797097}
+  m_Layer: 0
+  m_Name: CERBERUS_ R Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797097
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025481}
+  m_LocalRotation: {x: 0.70595336, y: 0.035095967, z: 0.035123922, w: 0.7065157}
+  m_LocalPosition: {x: -1.0036334, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797105}
+  m_Father: {fileID: 3972499496736797111}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 77.26852, y: 119.311844, z: 113.64085}
+--- !u!1 &3972499496737025483
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797099}
+  m_Layer: 0
+  m_Name: CERBERUS_ R HorseLink
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797099
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025483}
+  m_LocalRotation: {x: 0.000000020547358, y: 0.00000001422345, z: -0.48087996, w: 0.8767865}
+  m_LocalPosition: {x: -0.98606175, y: 0.00000015258789, z: 0}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797109}
+  m_Father: {fileID: 3972499496736797117}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000004703462, y: 0.0000007125334, z: -123.428955}
+--- !u!1 &3972499496737025485
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797101}
+  m_Layer: 0
+  m_Name: CERBERUS_ R Thigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797101
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025485}
+  m_LocalRotation: {x: -0.6676526, y: 0.72969794, z: -0.14699794, w: 0.013136055}
+  m_LocalPosition: {x: -0.0000010681152, y: -0.00000061035155, z: -0.584784}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797117}
+  m_Father: {fileID: 3972499496736797113}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 8.814205, y: -179.66194, z: -77.141594}
+--- !u!1 &3972499496737025487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797103}
+  m_Layer: 0
+  m_Name: CERBERUS_ R Toe0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797103
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025487}
+  m_LocalRotation: {x: 0.000000003519092, y: 0.00000007991025, z: -0.7071067, w: 0.7071068}
+  m_LocalPosition: {x: -0.35721847, y: 0.32859603, z: -0.00000015258789}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3972499496736797109}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.00015657113, y: -0.00005078309, z: -66.07136}
+--- !u!1 &3972499496737025489
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797105}
+  m_Layer: 0
+  m_Name: CERBERUS_ R Finger0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797105
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025489}
+  m_LocalRotation: {x: -0.7004864, y: 0.23948514, z: 0.15685682, w: 0.65372896}
+  m_LocalPosition: {x: -0.35217634, y: 0.00000015258789, z: 0.00000015258789}
+  m_LocalScale: {x: 0.99999994, y: 1.0000006, z: 1.0000004}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797107}
+  m_Father: {fileID: 3972499496736797097}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -83.72489, y: -6.5763507, z: 38.955254}
+--- !u!1 &3972499496737025491
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797107}
+  m_Layer: 0
+  m_Name: CERBERUS_ R Finger01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797107
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025491}
+  m_LocalRotation: {x: 0.0000000024354685, y: -0.000000007194128, z: 0.29513702, w: 0.95545495}
+  m_LocalPosition: {x: -0.42732215, y: 0, z: -0.000000076293944}
+  m_LocalScale: {x: 0.99999994, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3972499496736797105}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.00000025858657, y: -0.00000018939645, z: 34.331543}
+--- !u!1 &3972499496737025493
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797109}
+  m_Layer: 0
+  m_Name: CERBERUS_ R Foot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797109
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025493}
+  m_LocalRotation: {x: 0.011033912, y: -0.10306882, z: 0.22710547, w: 0.96833783}
+  m_LocalPosition: {x: -0.5016548, y: 0.00000015258789, z: 0.00000030517577}
+  m_LocalScale: {x: 0.99999994, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797103}
+  m_Father: {fileID: 3972499496736797099}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 2.410096, y: -3.9554763, z: 73.551575}
+--- !u!1 &3972499496737025495
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797111}
+  m_Layer: 0
+  m_Name: CERBERUS_ R Forearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797111
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025495}
+  m_LocalRotation: {x: -0.0000000072869297, y: 0.0000000053525224, z: 0.32874805,
+    w: 0.9444177}
+  m_LocalPosition: {x: -1.4755254, y: -0.000000038146972, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797097}
+  m_Father: {fileID: 3972499496736797089}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000005051039, y: -0.0000011816729, z: 71.51066}
+--- !u!1 &3972499496737025497
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797113}
+  m_Layer: 0
+  m_Name: CERBERUS_ Pelvis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797113
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025497}
+  m_LocalRotation: {x: -0.5, y: 0.5, z: 0.49999934, w: 0.50000066}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797071}
+  - {fileID: 3972499496736797101}
+  - {fileID: 3972499496736797091}
+  - {fileID: 3972499496736797147}
+  m_Father: {fileID: 3972499496736797083}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 94.747986, z: 0}
+--- !u!1 &3972499496737025499
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797115}
+  m_Layer: 0
+  m_Name: CERBERUS_ Queue de cheval 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797115
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025499}
+  m_LocalRotation: {x: -0.000000116301926, y: 0.00000080875685, z: -0.30805925, w: 0.9513672}
+  m_LocalPosition: {x: -0.10769256, y: 0.2496704, z: 0.0000035004107}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3972499496736797085}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.000019054458, y: 0.000023065739, z: -24.745203}
+--- !u!1 &3972499496737025501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797117}
+  m_Layer: 0
+  m_Name: CERBERUS_ R Calf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797117
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025501}
+  m_LocalRotation: {x: -2.2695457e-10, y: 0.000000015358088, z: 0.25684392, w: 0.9664529}
+  m_LocalPosition: {x: -1.3180702, y: -0.00000015258789, z: 0}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797099}
+  m_Father: {fileID: 3972499496736797101}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000004141007, y: -0.0000008123765, z: 96.4537}
+--- !u!1 &3972499496737025503
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797119}
+  m_Layer: 0
+  m_Name: CERBERUS_ R Clavicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797119
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025503}
+  m_LocalRotation: {x: 0.6897988, y: -0.29819614, z: 0.44590038, w: -0.48624027}
+  m_LocalPosition: {x: 1.0757167, y: -0.58486205, z: -0.8522305}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797089}
+  m_Father: {fileID: 3972499496736797061}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -22.569025, y: 98.06086, z: -112.25462}
+--- !u!1 &3972499496737025505
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797121}
+  m_Layer: 0
+  m_Name: CERBERUS_L_NECK_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797121
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025505}
+  m_LocalRotation: {x: -0.0010440691, y: 0.012737179, z: 0.04499848, w: 0.99890536}
+  m_LocalPosition: {x: -0.67033017, y: 0, z: -0.0000001335144}
+  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797131}
+  m_Father: {fileID: 3972499496736797135}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 1.1246505, y: 5.725919, z: -5.3727574}
+--- !u!1 &3972499496737025507
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797123}
+  m_Layer: 0
+  m_Name: CERBERUS_R_HEAD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797123
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025507}
+  m_LocalRotation: {x: 0.0010139396, y: 0.0015300796, z: -0.23748836, w: 0.9713887}
+  m_LocalPosition: {x: -0.5567875, y: 0.000001373291, z: 0.00000030517577}
+  m_LocalScale: {x: 1.0000002, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797125}
+  m_Father: {fileID: 3972499496736797177}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -3.351394, y: 6.3890452, z: 17.186771}
+--- !u!1 &3972499496737025509
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797125}
+  m_Layer: 0
+  m_Name: CERBERUS_R_JAW
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797125
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025509}
+  m_LocalRotation: {x: 0.0062868963, y: -0.012658853, z: -0.110154346, w: 0.993814}
+  m_LocalPosition: {x: -0.25470465, y: 0.4334111, z: -0.016781311}
+  m_LocalScale: {x: 1.0000001, y: 0.9999997, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3972499496736797123}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.5561881, y: -1.5212326, z: -2.0401838}
+--- !u!1 &3972499496737025511
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797127}
+  m_Layer: 0
+  m_Name: CERBERUS_R_NECK_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797127
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025511}
+  m_LocalRotation: {x: 0.0323241, y: -0.29695314, z: -0.16282688, w: 0.9403517}
+  m_LocalPosition: {x: -0.7084247, y: -0.05374304, z: -0.7189996}
+  m_LocalScale: {x: 0.99999994, y: 0.9999998, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797177}
+  m_Father: {fileID: 3972499496736797145}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0.3288244, y: -21.862583, z: -16.782692}
+--- !u!1 &3972499496737025513
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797129}
+  m_Layer: 0
+  m_Name: CERBERUS_ Tail7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797129
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025513}
+  m_LocalRotation: {x: 0.0000000328137, y: -0.00000031230024, z: 0.02933524, w: 0.99956965}
+  m_LocalPosition: {x: -0.3687642, y: -0.0004232788, z: -0.0000000011979137}
+  m_LocalScale: {x: 0.9999998, y: 0.9999998, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3972499496736797143}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.000011147256, y: -0.00005846942, z: 21.587868}
+--- !u!1 &3972499496737025515
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797131}
+  m_Layer: 0
+  m_Name: CERBERUS_L_HEAD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797131
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025515}
+  m_LocalRotation: {x: -0.0010141841, y: 0.0015299718, z: 0.23748836, w: 0.9713887}
+  m_LocalPosition: {x: -0.556787, y: -0.0000012207031, z: -0.000000076293944}
+  m_LocalScale: {x: 0.99999994, y: 0.9999998, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797133}
+  m_Father: {fileID: 3972499496736797121}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -1.6924351, y: 18.969963, z: -18.327585}
+--- !u!1 &3972499496737025517
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797133}
+  m_Layer: 0
+  m_Name: CERBERUS_L_JAW
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797133
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025517}
+  m_LocalRotation: {x: -0.0062868856, y: -0.012658717, z: 0.11015435, w: 0.993814}
+  m_LocalPosition: {x: -0.25470427, y: -0.43341064, z: -0.016780967}
+  m_LocalScale: {x: 0.9999999, y: 1.0000002, z: 0.9999998}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3972499496736797131}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.5560777, y: -1.5209036, z: 4.162966}
+--- !u!1 &3972499496737025519
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797135}
+  m_Layer: 0
+  m_Name: CERBERUS_L_NECK_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025519}
+  m_LocalRotation: {x: 0.9403517, y: -0.16282669, z: -0.29695344, w: 0.03232334}
+  m_LocalPosition: {x: -0.7084245, y: -0.053744506, z: 0.7186242}
+  m_LocalScale: {x: 1, y: 0.9999998, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797121}
+  m_Father: {fileID: 3972499496736797145}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -0.91973627, y: -153.69469, z: -170.33946}
+--- !u!1 &3972499496737025521
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797137}
+  m_Layer: 0
+  m_Name: CERBERUS_ Tail3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797137
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025521}
+  m_LocalRotation: {x: -4.2815374e-14, y: 0.000000020676914, z: -0.0074549303, w: 0.9999722}
+  m_LocalPosition: {x: -0.3333014, y: -0.0002758789, z: -7.636845e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797139}
+  m_Father: {fileID: 3972499496736797151}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.00000030334206, y: -0.000009813861, z: 3.5405676}
+--- !u!1 &3972499496737025523
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797139}
+  m_Layer: 0
+  m_Name: CERBERUS_ Tail4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797139
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025523}
+  m_LocalRotation: {x: -0.000000009663013, y: -0.00000017220489, z: 0.021594318, w: 0.9997668}
+  m_LocalPosition: {x: -0.34623703, y: -0.00024749755, z: -6.833579e-10}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797141}
+  m_Father: {fileID: 3972499496736797137}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000009631573, y: -0.00001746978, z: 6.311346}
+--- !u!1 &3972499496737025525
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797141}
+  m_Layer: 0
+  m_Name: CERBERUS_ Tail5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797141
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025525}
+  m_LocalRotation: {x: -0.00000001496007, y: -0.00000036365898, z: 0.03659224, w: 0.9993303}
+  m_LocalPosition: {x: -0.3114601, y: -0.0002746582, z: -7.473864e-10}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797143}
+  m_Father: {fileID: 3972499496736797139}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.000010839935, y: -0.000057686793, z: 21.284716}
+--- !u!1 &3972499496737025527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797143}
+  m_Layer: 0
+  m_Name: CERBERUS_ Tail6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797143
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025527}
+  m_LocalRotation: {x: 0.000000010788668, y: -0.00000051880875, z: 0.057643864, w: 0.9983372}
+  m_LocalPosition: {x: -0.3450901, y: -0.00029174803, z: -8.0210155e-10}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797129}
+  m_Father: {fileID: 3972499496736797141}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000110238225, y: -0.000058156566, z: 21.466604}
+--- !u!1 &3972499496737025529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797145}
+  m_Layer: 0
+  m_Name: CERBERUS_ Spine3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797145
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025529}
+  m_LocalRotation: {x: 1.1368684e-13, y: 6.394884e-14, z: -7.270142e-27, w: 1}
+  m_LocalPosition: {x: -0.6249347, y: -0.0008554077, z: -0.0000000023731264}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797061}
+  - {fileID: 3972499496736797135}
+  - {fileID: 3972499496736797127}
+  m_Father: {fileID: 3972499496736797095}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.00000019407724, y: -0.000007851445, z: 2.8319314}
+--- !u!1 &3972499496737025531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797147}
+  m_Layer: 0
+  m_Name: CERBERUS_ Tail
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797147
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025531}
+  m_LocalRotation: {x: 0.0000017959918, y: -0.0000010923484, z: 0.9130421, w: -0.40786532}
+  m_LocalPosition: {x: 1.0940377, y: -0.16094176, z: -0.000001368408}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797149}
+  m_Father: {fileID: 3972499496736797113}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0.000045879035, y: -0.000018239893, z: 142.06425}
+--- !u!1 &3972499496737025533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797149}
+  m_Layer: 0
+  m_Name: CERBERUS_ Tail1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797149
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025533}
+  m_LocalRotation: {x: 0.000000034224364, y: -0.00000029390668, z: -0.01335305, w: 0.9999109}
+  m_LocalPosition: {x: -0.40030333, y: -0.00028411864, z: -8.1025064e-10}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797151}
+  m_Father: {fileID: 3972499496736797147}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.00000021378624, y: -0.000008240364, z: 2.972334}
+--- !u!1 &3972499496737025535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972499496736797151}
+  m_Layer: 0
+  m_Name: CERBERUS_ Tail2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972499496736797151
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972499496737025535}
+  m_LocalRotation: {x: 4.999867e-13, y: -0.000000007614828, z: 0.002745534, w: 0.99999624}
+  m_LocalPosition: {x: -0.35711563, y: -0.00026550292, z: -7.357448e-10}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3972499496736797137}
+  m_Father: {fileID: 3972499496736797149}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000013346081, y: -0.000020552447, z: 7.4308367}
+--- !u!1 &8114656789634195267
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6261232076850675879}
+  - component: {fileID: 4291322484783406162}
+  - component: {fileID: 7534836044715368112}
+  m_Layer: 0
+  m_Name: AttackCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6261232076850675879
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8114656789634195267}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3972499496736797179}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4291322484783406162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8114656789634195267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52812abb50183584d8a20618192fc691, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &7534836044715368112
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8114656789634195267}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.2489133, y: 4.0053053, z: 3.4338539}
+  m_Center: {x: -0.12290583, y: 3.1826987, z: 3.4850383}
